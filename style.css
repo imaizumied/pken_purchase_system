@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+#app {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+#pictureUrl {
+    margin: 10px 0;
+    background-color: #ddd;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #06C755; /* LINEカラー */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
